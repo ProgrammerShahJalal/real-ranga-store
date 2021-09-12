@@ -135,7 +135,7 @@ body {
   }
 
   .btn-ranga-add:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
     text-decoration: none;
   }
@@ -160,7 +160,7 @@ body {
  }
 
  .btn-ranga-details:hover {
-   background-position: right center; /* change the direction of the change here */
+   background-position: right center;
    color: #fff;
    text-decoration: none;
  }

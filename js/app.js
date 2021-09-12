@@ -84,4 +84,3 @@ const updateTotal = () => {
       getInputValue("total-tax")) * 100) / 100).toFixed(2);
   document.getElementById("total").innerText = grandTotal;
 };
-
