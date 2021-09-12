@@ -117,7 +117,8 @@ body {
 }
  /* ranga store add to card button */
 
- .btn-ranga-add {background-image: linear-gradient(to right, #ee0979 0%, #ff6a00  51%, #ee0979  100%)}
+
+ .btn-ranga-add {background-image: linear-gradient(to right, #0575E6 0%, #021B79  51%, #0575E6  100%)}
  .btn-ranga-add {
     margin: 10px;
     padding: 10px 15px;
@@ -125,8 +126,8 @@ body {
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    font-size: 12px;
-    color: white;            
+    color: white; 
+    font-size: 12px;           
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     border: none;
@@ -134,10 +135,11 @@ body {
   }
 
   .btn-ranga-add:hover {
-    background-position: right center;
+    background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
   }
+ 
 
 /* <-----------detals button-------> */
   
