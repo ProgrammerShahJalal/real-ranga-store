@@ -91,3 +91,85 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+/* -------------Real Ranga Store custom style------------ */
+
+/* my card buy now button */
+.btn-ranga {background-image: linear-gradient(to right, #56CCF2 0%, #2F80ED  51%, #56CCF2  100%)}
+.btn-ranga {
+   margin: 10px;
+   padding: 10px 15px;
+   text-align: center;
+   font-size: 12px;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   border: none;
+   outline: none;
+ }
+ .btn-ranga:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+ /* ranga store add to card button */
+
+ .btn-ranga-add {background-image: linear-gradient(to right, #ee0979 0%, #ff6a00  51%, #ee0979  100%)}
+ .btn-ranga-add {
+    margin: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-size: 12px;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+
+  .btn-ranga-add:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+/* <-----------detals button-------> */
+  
+.btn-ranga-details {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+.btn-ranga-details {
+   margin: 10px;
+   padding: 10px 7px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;       
+   font-size: 12px;     
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   border: none;
+   outline: none;
+ }
+
+ .btn-ranga-details:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+
+ 
+ 
+
+ 
+  
+  
+ 
+ 
