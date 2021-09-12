@@ -78,8 +78,8 @@ const updateTaxAndCharge = () => {
 //grandTotal update function
 const updateTotal = () => {
   const grandTotal =
-    getInputValue("price") + getInputValue("delivery-charge") +
-    getInputValue("total-tax");
+    (((getInputValue("price") + getInputValue("delivery-charge") +
+      getInputValue("total-tax")) * 100) / 100).toFixed(2);
   document.getElementById("total").innerText = grandTotal;
 };
 
