@@ -59,10 +59,11 @@ body {
   height: 150px;
 }
 .cart {
-  width: 350px;
+  width: 300px;
   padding: 10px;
+  background-image: linear-gradient(rgb(240, 212, 203), #dde9f3);
   box-shadow: 10px 10px 20px gray;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-right: 30px;
   position: fixed;
 }
@@ -118,7 +119,6 @@ body {
     background-size: 200% auto;
     color: white; 
     font-size: 12px;           
-    box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -145,8 +145,7 @@ body {
    transition: 0.5s;
    background-size: 200% auto;
    color: white;       
-   font-size: 12px;     
-   box-shadow: 0 0 20px #eee;
+   font-size: 12px;
    border-radius: 7px;
    border: none;
    outline: none;
