@@ -28,17 +28,20 @@ body {
 }
 #search-btn{
   margin-left: 22px;
-  background-color: orange;
+  transition: 0.5s;
+   background-size: 200% auto;    
+   box-shadow: 0 0 20px #eee;
+   border-radius: 5px;
   border: none;
   outline: none;
 }
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* border: 1px solid black; */
   text-align: center;
   width: 100%;
   margin: auto;
+  margin-left: 20px;
   align-items: center;
   justify-content: center;
 }
@@ -57,7 +60,6 @@ body {
 }
 .cart {
   width: 350px;
-  /* border: 1px solid green; */
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
@@ -74,7 +76,6 @@ body {
   }
   .cart {
     width: 300px;
-    /* border: 1px solid green; */
     padding: 10px;
     box-shadow: 10px 10px 20px gray;
     border-radius: 5px;
@@ -94,31 +95,20 @@ body {
 
 /* -------------Real Ranga Store custom style------------ */
 
-/* my card buy now button */
-.btn-ranga {background-image: linear-gradient(to right, #56CCF2 0%, #2F80ED  51%, #56CCF2  100%)}
-.btn-ranga {
-   margin: 10px;
-   padding: 10px 15px;
-   text-align: center;
-   font-size: 12px;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   box-shadow: 0 0 20px #eee;
-   border-radius: 10px;
-   border: none;
-   outline: none;
- }
- .btn-ranga:hover {
-  background-position: right center;
-  color: #fff;
-  text-decoration: none;
+.ranga{
+  margin-bottom: 50px;
 }
- /* ranga store add to card button */
+.product-info{
+  border-radius: 25px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(white, rgb(241, 205, 205) );
+}
 
+ /* ranga store add to card and buy now button */
 
+ .btn-ranga,
  .btn-ranga-add {background-image: linear-gradient(to right, #0575E6 0%, #021B79  51%, #0575E6  100%)}
+ .btn-ranga,
  .btn-ranga-add {
     margin: 10px;
     padding: 10px 15px;
@@ -134,6 +124,7 @@ body {
     outline: none;
   }
 
+  .btn-ranga:hover,
   .btn-ranga-add:hover {
     background-position: right center;
     color: #fff;
@@ -141,9 +132,11 @@ body {
   }
  
 
-/* <-----------detals button-------> */
+/* <-----------detals button all property and search button some property-------> */
   
+#search-btn,
 .btn-ranga-details {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+
 .btn-ranga-details {
    margin: 10px;
    padding: 10px 7px;
@@ -159,6 +152,7 @@ body {
    outline: none;
  }
 
+ #search-btn:hover,
  .btn-ranga-details:hover {
    background-position: right center;
    color: #fff;
@@ -169,14 +163,3 @@ body {
  .checked {
   color: orange;
 }
-
-
-
- 
- 
-
- 
-  
-  
- 
- 
